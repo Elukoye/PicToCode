@@ -3,14 +3,20 @@ import { Link } from 'react-router-dom';
 import Camera from 'react-html5-camera-photo';
 import 'react-html5-camera-photo/build/css/index.css';
 import { saveImage } from '../helpers/';
+import ImageUploader from 'react-images-upload';
 
 const CameraPage = ({ text, setText }) => {
-  // const history = useHistory();
 
   const handleTakePhoto = (dataUri) => {
     const image = dataUri.replace(/^data:image\/\w+;base64,/, '');
     saveImage(image, setText);
-  }
+	}
+	
+	const onDrop = (picture) => {
+		// this.setState({
+		// 		pictures: this.state.pictures.concat(picture),
+		// });
+}
   return (
     <>
       <Link to="/" class="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 border border-teal-700 rounded">
@@ -20,7 +26,6 @@ const CameraPage = ({ text, setText }) => {
 				<div class="grid grid-cols-2 gap-4">
 					<div class=" ">
 						<Camera
-							// className="camera-container"
 							isImageMirror={false}
 							onTakePhoto = { (dataUri) => { handleTakePhoto(dataUri); } }
 						/>
@@ -38,6 +43,13 @@ const CameraPage = ({ text, setText }) => {
 					</div>
 			</div>
       </section>
+			<ImageUploader
+                withIcon={true}
+                buttonText='Choose your image'
+                onChange={onDrop()}
+                imgExtension={['.jpg', '.gif', '.png', '.gif']}
+                maxFileSize={5242880}
+            />
     </>
   );
 };
