@@ -12,13 +12,16 @@ function App() {
     <BrowserRouter>
 			<Header />
       <Switch>
-        <Route exact path="/">
-          <HomePage />
-        </Route>
-        <Route exact path="/camera" component={CameraPage} >
-          <CameraPage text={text} setText={setText} />
-        </Route>
+				<div class="lg:container lg:mx-auto p-12">
+					<Route exact path="/">
+						<HomePage />
+					</Route>
+					<Route exact path="/camera" component={CameraPage} >
+						<CameraPage text={text} setText={setText} />
+					</Route>
+				</div>
       </Switch>
+			
     </BrowserRouter>
   );
 }
