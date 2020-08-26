@@ -25,12 +25,12 @@ const CameraPage = ({ text, setText }) => {
 							onTakePhoto = { (dataUri) => { handleTakePhoto(dataUri); } }
 						/>
 					</div>
-					<div class=" bg-gray-100 p-3"> 
-						<h3 class="mb-4"> You can copy your code below</h3>
+					<div class="bg-gray-700 p-3"> 
+						<h3 class="mb-4 text-white font-mono font-bold"> You can copy your code below:</h3>
 						{
 							text
 								? (
-									<div >
+									<div class="mb-4 text-white font-mono font-medium">
 										{text}
 									</div>
 								) : null

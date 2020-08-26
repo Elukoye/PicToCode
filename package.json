@@ -19,7 +19,7 @@
     "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:css": "postcss src/asset/tailwind.css -o src/asset/main.css", 
+    "build:css": "postcss src/asset/tailwind.css -o src/asset/main.css",
     "watch:css": "postcss src/asset/tailwind.css -o src/asset/main.css"
   },
   "eslintConfig": {
