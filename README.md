@@ -24,7 +24,7 @@ This is hackathon project meant to be submitted within 50 hours
 - axios
 
 ## Demo
- Check out the live demo of the project. [Click]()
+ Check out the live demo of the project. [Click](https://adoring-meitner-cafe65.netlify.app/)
 
 ## Usage
 > Clone the repository to your local machine
