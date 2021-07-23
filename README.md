@@ -48,11 +48,11 @@ $ cd PicToCode
 
 ## Maintainers 
 
-Okike Bright – [@b_okike](https://twitter.com/b_okike) – brightokike@gmail.com
-Emogene Lukoye – [@Elukoye](https://www.linkedin.com/in/eelukoye/) – lukoyedith@gmail.com
-Radouane Khiri – [@redvanisation](https://twitter.com/redvanisation) –  Radouanekhiri@gmail.com
-Murilo Roque  – [@MuriloRoquePai1](https://twitter.com/MuriloRoquePai1) – muriloengqui@gmail.com
-Macbright - [https://github.com/macbright/github-link](https://github.com/macbright)
+1. Okike Bright – [@b_okike](https://twitter.com/b_okike) – brightokike@gmail.com
+2. Emogene Lukoye – [@Elukoye](https://www.linkedin.com/in/eelukoye/) – lukoyedith@gmail.com
+3. Radouane Khiri – [@redvanisation](https://twitter.com/redvanisation) –  Radouanekhiri@gmail.com
+4. Murilo Roque  – [@MuriloRoquePai1](https://twitter.com/MuriloRoquePai1) – muriloengqui@gmail.com
+5. Macbright - [https://github.com/macbright/github-link](https://github.com/macbright)
 
 
 ## Contributing
