@@ -4,11 +4,10 @@
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![dependencies Status](https://david-dm.org/dwyl/esta/status.svg)](https://david-dm.org/dwyl/esta)
 
-
-Pic-to-Code is an app that converts a picture of hand written code into a text
+ An app that converts a picture of hand written code into text
 which can be copied to your code editor
 
-This is hackathon project meant to be submitted within 50 hours
+A hackathon project meant to be submitted within 50 hours
 
 
 ![sample](./src/asset/screen.png)
@@ -50,26 +49,10 @@ $ cd PicToCode
 ## Maintainers 
 
 Okike Bright – [@b_okike](https://twitter.com/b_okike) – brightokike@gmail.com
-
-[https://github.com/macbright/github-link](https://github.com/macbright)
-
-
-Emogene – [@Elukoye1](https://twitter.com/Elukoye1) – lukoyedith@gmail.com
-
-[https://github.com/Elukoye/github-link](https://github.com/Elukoye)
-
-
-Murilo Roque  – [@MuriloRoquePai1](https://twitter.com/MuriloRoquePai1) – muriloengqui@gmail.com
-
-[https://github.com/MuriloRoque/github-link](https://github.com/MuriloRoque)
-
-
-
+Emogene Lukoye – [@Elukoye](https://www.linkedin.com/in/eelukoye/) – lukoyedith@gmail.com
 Radouane Khiri – [@redvanisation](https://twitter.com/redvanisation) –  Radouanekhiri@gmail.com
-
-[https://github.com/Redvanisation/github-link](https://github.com/Redvanisation)
-
-
+Murilo Roque  – [@MuriloRoquePai1](https://twitter.com/MuriloRoquePai1) – muriloengqui@gmail.com
+Macbright - [https://github.com/macbright/github-link](https://github.com/macbright)
 
 
 ## Contributing
